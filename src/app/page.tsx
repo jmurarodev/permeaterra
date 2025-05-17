@@ -69,21 +69,22 @@ export default function Home() {
       {/* Hero Section */}
       <section
         id="sobre"
-        className="w-full max-w-4xl text-center mt-12 pt-8"
+        className="w-full px-0"
       >
-        <h1 className="text-4xl font-bold text-green-800 mb-4">
-          PermeaTerra
-        </h1>
-        <p className="text-lg text-gray-700 mb-8">
-          Integração entre Natureza e Inovação no Monitoramento da Umidade do Solo
-        </p>
-        <p className="text-gray-700 mt-4">
-          A tecnologia PermeaTerra é uma solução que utiliza Arduino, combinando sensores de umidade do solo, LEDs e LCDs para monitorar a infiltração da água no solo. Com essa tecnologia, é possível otimizar o uso da água na agricultura, promovendo práticas sustentáveis e eficientes.
-        </p>
+        <div className="w-full text-center bg-green-100 rounded-lg shadow pt-8 pb-4">
+          <h1 className="text-4xl font-bold text-green-800 mb-4">
+            PermeaTerra
+          </h1>
+          <p className="text-lg text-gray-700 mb-8">
+            Integração entre Natureza e Inovação no Monitoramento da Umidade do Solo
+          </p>
+          <p className="text-gray-700 mt-4">
+            A tecnologia PermeaTerra é uma solução que utiliza Arduino, combinando sensores de umidade do solo, LEDs e LCDs para monitorar a infiltração da água no solo.<br></br>Com essa tecnologia, é possível otimizar o uso da água na agricultura, promovendo práticas sustentáveis e eficientes.
+          </p>
+        </div>
       </section>
-
       {/* Content */}
-      <main id="content" className="w-full max-w-4xl text-center mt-12 space-y-12 pt-8">
+      <main id="content" className="w-full max-w-4xl text-center mt-4 space-y-12 pt-8">
         {/* How It Works Section */}
         <section id="como-funciona">
           <h2 className="text-2xl font-semibold text-green-800">Como Funciona?</h2>
