@@ -134,7 +134,7 @@ export default function Home() {
           id="footer"
           className="w-full fixed bottom-0 left-0 p-4 bg-green-800 text-white text-center"
         >
-          <p>Feito com <span className="heart">&hearts;</span> por EcoSense Tecnologia.</p>
+          <p>Feito com <span className="heart">&hearts;</span> por Bioflux.</p>
           <p className="mt-2">Entre em contato: <a href="mailto:contato.permeaterra@gmail.com"> contato.permeaterra@gmail.com</a></p>
         </footer>
       )}
